@@ -2,7 +2,7 @@ import React, {useEffect, useState} from 'react';
 import { Table, TableBody, TableCell, TableContainer, TableHead, TableRow, Modal, Box} from '@mui/material';
 
 
-const BooksTable = (props) => {
+const BooksTable = () => {
     const apiURL = "https://fakerapi.it/api/v1/books?_quantity=15";
     const [books, setBooks] = useState([]);
 

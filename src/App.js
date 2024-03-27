@@ -1,10 +1,10 @@
 import './App.css';
-import BooksTable from './BooksTable';
+import BooksTableH from './components/BooksTableH';
 
 function App() {
   return (
     <div className="App">
-        <BooksTable/>
+        <BooksTableH/>
     </div>
   );
 }

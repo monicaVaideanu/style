@@ -1,0 +1,21 @@
+#table {
+    font-family: Arial, sans-serif;
+    border-collapse: collapse;
+    width: 60%;
+    margin: auto; /* Center table on the page */
+}
+
+#table th, #simpleTable td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+#table tr:nth-child(even){background-color: #f2f2f2;}
+
+#table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: #4CAF50;
+    color: white;
+}
